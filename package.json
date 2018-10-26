@@ -1,0 +1,22 @@
+{
+  "name": "binarysearchlevel",
+  "version": "1.0.0",
+  "description": "This is Binary search right eye level problem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArchitGajjar/BinarySearchRightEye.git"
+  },
+  "author": "architgajjar1992@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArchitGajjar/BinarySearchRightEye/issues"
+  },
+  "homepage": "https://github.com/ArchitGajjar/BinarySearchRightEye#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

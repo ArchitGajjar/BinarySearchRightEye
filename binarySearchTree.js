@@ -1,9 +1,19 @@
+/**
+ * @file Node class file for BST
+ * @author Archit Gajjar <architgajjar1992@gmail.com>
+ * @module BinarySearchTree
+ *
+ **/
 class Node {
   constructor(data){
     this.data = data;
     this.left = null;
     this.right = null;
-  }
+  
+  /**
+   * @param {any} data is decimal number inserting into BST 
+   * @memberof Node is class
+   */
   insert(data){
     if(data < this.data && this.left){
       this.left.insert(data);
@@ -16,6 +26,10 @@ class Node {
     }
   }
 
+  /**
+   * @param {any} level searching index from right side.
+   * @memberof Node is class
+   */
   search(level){
     let counter = 0;
     let node = new Node();
@@ -35,19 +49,4 @@ class Node {
   }
 }
 
-const node = new Node(12);
-node.insert(10);
-// node.insert(14);
-node.insert(8);
-node.insert(11);
-// node.insert(13);
-// node.insert(15);
-// node.insert(80);
-// node.insert(70);
-// node.insert(60);
-// node.insert(55);
-// node.insert(85);
-
-// level
-console.log('>>>>>>>>>', node.search(2));
 module.exports = Node;

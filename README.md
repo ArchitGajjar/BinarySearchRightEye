@@ -1,2 +1,2 @@
 # BinarySearchRightEye
-This is Binary search right eye level problem.  
+This is Binary search level from right side.
