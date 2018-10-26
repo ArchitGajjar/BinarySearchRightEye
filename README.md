@@ -10,7 +10,7 @@ hit npm install.
     npm install
 ```
 
-## Binary search insertions code sample node - ES6 style
+## Binary Search Right Eye code sample node - ES6 style
 - binarySearchTree.js (source code)
 - binarySearch.test.js (test code)
 
